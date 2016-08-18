@@ -10,7 +10,7 @@ The data points made available by this script are averages (as calculated over u
 These signals were used to estimate variables of the feature vector for each pattern:
  '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-* tBodyAccelerometer-XYZ
+* timeBodyAccelerometer-XYZ
 * timeGravityAccelerometer-XYZ
 * timeBodyAccelerometerJerk-XYZ 
 * timeBodyGyroscope-XYZ 
@@ -36,5 +36,5 @@ The averages of those calculations were then determined for each unique combinat
 
 #Data Dictionary
 
-subject - Integer - An identifier that represents a single person in the study. 
-activity - Character (Factor) A- n identifier that describes the type of physical activity the measurements are associated with. Possible values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING 
+* subject - Integer - An identifier that represents a single person in the study. 
+* activity - Character (Factor) A- n identifier that describes the type of physical activity the measurements are associated with. Possible values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING 
