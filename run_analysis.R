@@ -57,7 +57,7 @@
 	names(Data)<-gsub("Acc", "Accelerometer", names(Data))
 	names(Data)<-gsub("Gyro", "Gyroscope", names(Data))
 	names(Data)<-gsub("Mag", "Magnitude", names(Data))
-	names(Data)<-gsub("BodyBody", "Magnitude", names(Data))
+	names(Data)<-gsub("BodyBody", "Body", names(Data))
 
 	
 #Creates a file with the average of each variable for each activity and each subject
